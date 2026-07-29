@@ -1,0 +1,1 @@
+.brand{display:flex;align-items:center;gap:9px}.brand:before{content:'';display:block;width:34px;height:34px;flex:0 0 34px;background:url('./assets/futa-findit-logo.svg') center/contain no-repeat}@media(max-width:760px){.brand:before{width:29px;height:29px;flex-basis:29px}}

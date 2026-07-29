@@ -1,3 +1,5 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-export default defineConfig({ plugins: [react()], server: { port: 5173, proxy: { '/api': 'http://localhost:5000' } } })
+// This is a frontend-only project. The deployed API address is supplied by
+// VITE_API_URL when Vercel builds the app.
+export default defineConfig({ plugins: [react()], server: { port: 5173 } })
