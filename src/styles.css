@@ -46,6 +46,7 @@ nav a,nav button{display:inline-flex;align-items:center;gap:6px}
 .match-card b{font-size:18px}
 .match-card p{margin:0;color:#526a75;line-height:1.6}
 .match-meta{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}
+.match-meta-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .handover-map{position:relative;min-height:240px;border-radius:16px;padding:20px;overflow:hidden;border:1px solid #dce8e5;background:radial-gradient(circle at 24% 26%,#d7efcf 0 7%,transparent 7.4%),radial-gradient(circle at 74% 24%,#c8ede5 0 9%,transparent 9.4%),radial-gradient(circle at 56% 72%,#d3ead8 0 11%,transparent 11.4%),linear-gradient(145deg,#eef8f3,#e8f3ef)}
 .handover-map>b{position:absolute;left:20px;bottom:18px;color:#52734c;font-size:20px;line-height:1.05;letter-spacing:.04em}
 .handover-map .map-pin{animation:none}
@@ -53,6 +54,12 @@ nav a,nav button{display:inline-flex;align-items:center;gap:6px}
 .handover-map .pin-library{top:25%;right:16%}
 .handover-map .pin-halls{bottom:25%;left:19%}
 .handover-map .pin-security{top:10%;left:46%}
+.chat-box{display:grid;gap:12px;padding:14px;border:1px solid #dce8e5;border-radius:14px;background:#f8fbfa;max-height:320px;overflow:auto}
+.chat-bubble{max-width:78%;padding:12px 14px;border-radius:14px;background:#fff;border:1px solid #deebe8;color:#244351;box-shadow:0 6px 18px rgba(18,58,71,.05)}
+.chat-bubble.mine{margin-left:auto;background:#102e45;color:#fff;border-color:#102e45}
+.chat-compose{display:grid;gap:10px;margin-top:12px}
+.chat-compose textarea{min-height:100px;padding:13px 14px;border:1px solid #c9dad7;border-radius:12px;resize:vertical;font:inherit}
+.handover-summary{margin-top:12px;padding:12px 14px;border-radius:12px;background:#ecf8f5;border:1px solid #cce7df;color:#244351}
 .detail .details{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 .detail .details p{margin:0}
 @media (max-width:1000px){.feature-grid,.connect-grid,.report-panels{grid-template-columns:1fr 1fr}}
