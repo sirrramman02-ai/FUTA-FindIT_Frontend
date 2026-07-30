@@ -39,6 +39,22 @@ nav a,nav button{display:inline-flex;align-items:center;gap:6px}
 .connect-card textarea{min-height:150px;width:100%;padding:13px 14px;border:1px solid #c9dad7;border-radius:12px;resize:vertical;font:inherit}
 .connect-card .button{width:100%;margin-top:4px}
 .connect-card .ghost{background:#f4fbf9;color:#102e45}
+.matches-block,.handover-block{margin:24px 0;padding:22px;border:1px solid #deebe8;border-radius:18px;background:#fff;box-shadow:0 10px 24px rgba(18,58,71,.06)}
+.matches-block h2,.handover-block h2{margin:8px 0 14px;font-size:26px}
+.match-card{padding:16px 0;border-top:1px solid #edf2ef;display:grid;gap:12px}
+.match-card:first-of-type{border-top:0;padding-top:0}
+.match-card b{font-size:18px}
+.match-card p{margin:0;color:#526a75;line-height:1.6}
+.match-meta{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}
+.handover-map{position:relative;min-height:240px;border-radius:16px;padding:20px;overflow:hidden;border:1px solid #dce8e5;background:radial-gradient(circle at 24% 26%,#d7efcf 0 7%,transparent 7.4%),radial-gradient(circle at 74% 24%,#c8ede5 0 9%,transparent 9.4%),radial-gradient(circle at 56% 72%,#d3ead8 0 11%,transparent 11.4%),linear-gradient(145deg,#eef8f3,#e8f3ef)}
+.handover-map>b{position:absolute;left:20px;bottom:18px;color:#52734c;font-size:20px;line-height:1.05;letter-spacing:.04em}
+.handover-map .map-pin{animation:none}
+.handover-map .pin-gate{top:18%;left:13%}
+.handover-map .pin-library{top:25%;right:16%}
+.handover-map .pin-halls{bottom:25%;left:19%}
+.handover-map .pin-security{top:10%;left:46%}
+.detail .details{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.detail .details p{margin:0}
 @media (max-width:1000px){.feature-grid,.connect-grid,.report-panels{grid-template-columns:1fr 1fr}}
-@media (max-width:700px){.feature-grid,.connect-grid,.report-panels{grid-template-columns:1fr}.report-switch{display:grid;grid-template-columns:1fr}.report-switch button,.report-panel{width:100%}.match-callout{padding:14px}.connect-page .connect-intro{font-size:16px}}
+@media (max-width:700px){.feature-grid,.connect-grid,.report-panels{grid-template-columns:1fr}.report-switch{display:grid;grid-template-columns:1fr}.report-switch button,.report-panel{width:100%}.match-callout{padding:14px}.connect-page .connect-intro{font-size:16px}.detail .details{grid-template-columns:1fr}.match-meta .button{width:100%}.match-card .button{white-space:nowrap}}
 .card-image{width:100%;height:130px;object-fit:cover;border-radius:12px;margin-bottom:12px;border:1px solid #deebe8;background:#f4fbf9}
